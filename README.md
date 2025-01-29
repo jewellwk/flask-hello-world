@@ -10,7 +10,7 @@ Ensure you have the following installed:
 
 ## Setup Instructions
 
-1. **Clone the repository:**
+1. **Clone the repository on your local machine:**
    ```sh
    git clone <repository_url>
    cd flask-hello-world
