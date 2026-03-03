@@ -52,7 +52,11 @@ git --version
 3. **Access the application:**
    Open a web browser and go to:
    ```
-   On the details page of your vm, there will be a public endpoint. Copy and paste that into your browser. 
+   On your VM you will see: 
+   * Running on http://127.0.0.1:5000
+
+   However, this is the home IP and will not work. 127.0.0.1 needs to be updated with the external IP to your VM.
+   On the details page of your vm, there will be a public endpoint. Copy and paste that into your browser with port 5000. 
    ```
    You should see "Hello, World!" displayed on the page.
 
