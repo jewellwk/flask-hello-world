@@ -25,6 +25,14 @@ Confirm you have flask installed by running:
 ```
 flask --version
 ```
+Install git by running:
+```
+sudo apt install git
+```
+Confirm you have git installed by running:
+```
+git --version
+```
 ---
 
 ## Exercise 1 DUE 03/03
