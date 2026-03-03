@@ -7,8 +7,24 @@ This is a minimal Flask application that runs on GCP and returns "Hello, World!"
 Ensure you have the following installed:
 - Python (>=3.7)
 - pip (Python package manager)
-
   
+Run these commands to install Python:
+```
+sudo apt update
+sudo apt install python3 python3-pip python3-venv python3-dev build-essential
+```
+Confirm you have python installed by running:
+```
+python3 --version
+```
+Install flask by running:
+```
+sudo apt install python3-flask
+```
+Confirm you have flask installed by running:
+```
+flask --version
+```
 ---
 
 ## Exercise 1 DUE 03/03
@@ -20,31 +36,19 @@ Ensure you have the following installed:
    cd flask-hello-world
    ```
 
-2. **Create a virtual environment (optional):**
-   ```sh
-   python -m venv venv
-   source venv/bin/activate  # On macOS/Linux
-   venv\Scripts\activate     # On Windows
-   ```
-
-3. **Install dependencies:**
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-4. **Run the application:**
+2. **Run the application:**
    ```sh
    python app.py
    ```
 
-5. **Access the application:**
+3. **Access the application:**
    Open a web browser and go to:
    ```
    On the details page of your vm, there will be a public endpoint. Copy and paste that into your browser. 
    ```
    You should see "Hello, World!" displayed on the page.
 
-6. To terminate the server upon completion of the assignment, you will need to execute **Ctrl + C**.
+4. To terminate the server upon completion of the assignment, you will need to execute **Ctrl + C**.
    !!IMPORTANT!! ALWAYS STOP YOUR VM WHEN YOU ARE DONE USING IT.
 
 ## Understanding the Code
